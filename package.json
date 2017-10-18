@@ -5,9 +5,15 @@
   "repository": "https://github.com/danielstallworthmit/Driver-Lite.git",
   "author": "danielstallworthmit <danielstallworthmit@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
+    "eslint": "^4.9.0",
     "express": "^4.16.2",
     "mocha": "^4.0.1",
-    "mongoose": "^4.12.3"
+    "mongoose": "^4.12.3",
+    "nodemon": "^1.12.1",
+    "supertest": "^3.0.0"
   }
 }
